@@ -3,8 +3,8 @@ on: [ push ]
 env:
 #### An dieser Stelle müssen eure persönlichen Umgebungsvariablen eingetragen werden
   # Tip: Die Token/der API-Key werden als Secrets in den Repository-Settings eingetragen und hier referenziert.
-  APP_NAME: "" #<-- hier wird der Name euer Heroku-App eingetragen
-  HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }} 
+  APP_NAME: "pet-clinic-n" #<-- hier wird der Name euer Heroku-App eingetragen
+  HEROKU_API_KEY: ${{ f16f53e9-83ed-48a1-a9bb-1dff26946b2b }} 
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
   SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 jobs:
